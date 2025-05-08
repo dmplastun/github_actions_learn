@@ -15,7 +15,7 @@ on:
 
 jobs:
   my_testing: 
-    runs-on: ubuntuxyz-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Print Hello World from Test
