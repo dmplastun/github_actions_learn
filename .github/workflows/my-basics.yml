@@ -37,7 +37,9 @@ jobs:
       run: aws --version
       
     - name: Start command ZIP
-      run: zip
+      run: |
+        zip
+        ip a
   
   my_deploy: 
     runs-on: ubuntu-latest
