@@ -33,6 +33,11 @@ jobs:
     - name: List current folder
       run: ls -la
 
+    - name: Test AWS packages
+      run: aws --version
+      
+    - name: Start command ZIP
+      run: zip
   
   my_deploy: 
     runs-on: ubuntu-latest
